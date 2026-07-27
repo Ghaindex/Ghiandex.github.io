@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ghaindex Thumbnail Designer</title>
+<meta name="description" content="High-impact YouTube thumbnail design that drives clicks. Selected work in gaming, streaming and creator content." />
+<meta property="og:title" content="Ghaindex Thumbnail Designer" />
+<meta property="og:description" content="High-impact YouTube thumbnail design that drives clicks." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="icon" type="image/webp" href="assets/avatar.webp" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a href="#top" class="brand">
+        <img src="assets/avatar.webp" alt="Ghiandex avatar" class="brand-img" />
+        <span class="brand-name">GHIANDEX</span>
+      </a>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        ☰
+      </button>
+    </nav>
+    
+    <!-- Mobile view div is now OUTSIDE the <nav> tag -->
+    <div class="nav-links" id="nav-links">
+      <button id="menu-close" class="menu-close" type="button" aria-label="Close menu">✕</button>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <section id="top" class="hero grain">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1 class="hero-title">
+          <span class="text-gradient-blood">GHIANDEX</span>
+          <br />
+          <span class="hero-sub">Thumbnail design</span>
+        </h1>
+        <p class="lead">
+          I design bold, high-contrast YouTube thumbnails for gaming, streaming and creator channels — engineered to stop the scroll and lift CTR.
+        </p>
+        <div class="cta-row">
+          <a href="#work" class="btn btn-primary">View Work</a>
+          <a href="#contact" class="btn btn-ghost">Hire Me</a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-glow"></div>
+        <img src="assets/avatar.webp" alt="Ghiandex pixel character" class="avatar-img" />
+      </div>
+    </div>
+    <div class="scroll-hint">SCROLL ↓</div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container-narrow">
+      <p class="eyebrow">01 — About</p>
+      <h2 class="section-title">Simple thumbnails with strong impact.</h2>
+      <p class="lead">
+        I create clean, bold thumbnail designs that help videos stand out and get clicks.
+      </p>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">02 — Selected Work</p>
+          <h2 class="section-title">The Gallery</h2>
+        </div>
+        <span class="count" id="thumb-count"></span>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="contact-card grain">
+      <p class="eyebrow">03 — Contact</p>
+      <h2 class="section-title contact-title">Get in touch for thumbnail work.</h2>
+      <div class="cta-row center">
+        <button id="discord-btn" class="btn btn-ghost">Discord: Ghiandex_</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    Made by <a href="https://goldfromgoldwila.github.io" target="_blank" rel="noopener noreferrer" class="footer-link">Goldfromgoldwila</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
