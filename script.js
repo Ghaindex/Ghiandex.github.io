@@ -7,7 +7,8 @@ const thumbs = [
   "assets/6.webp.png",
   "assets/7.webp.png",
   "assets/8.webp.png",
-  "assets/9.webp.png"
+  "assets/9.webp.png",
+  "assets/10.webp.png"
 ];
 
 const gallery = document.getElementById("gallery");
